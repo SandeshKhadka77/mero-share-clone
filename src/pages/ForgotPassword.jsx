@@ -4,7 +4,7 @@ import { FiBriefcase, FiCalendar, FiMail, FiUser } from "react-icons/fi";
 import Dropdown from "../components/Dropdown";
 import InputField from "../components/InputField";
 import Button from "../components/Button";
-import { depositoryParticipants } from "../constants/depositoryParticipants";
+import { depositoryParticipants } from "../data/depositoryParticipants";
 import "../styles/forgotPassword.css";
 
 function ForgotPassword() {

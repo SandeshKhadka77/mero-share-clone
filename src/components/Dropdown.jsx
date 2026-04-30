@@ -99,20 +99,16 @@ function Dropdown({
 
       {open && (
         <div className="dropdown-menu" role="listbox">
-          {filteredOptions.length > 0 ? (
-            filteredOptions.map((option) => (
-              <button
-                key={option.value}
-                type="button"
-                className="dropdown-option"
-                onClick={() => handleSelect(option.value)}
-              >
-                {option.label}
-              </button>
-            ))
-          ) : (
-            <div className="dropdown-empty">No results found</div>
-          )}
+          {filteredOptions.map((option) => (
+            <button
+              key={option.value}
+              type="button"
+              className="dropdown-item"
+              onClick={() => handleSelect(option.value)}
+            >
+              {option.label}
+            </button>
+          ))}
         </div>
       )}
     </div>
