@@ -1,5 +1,6 @@
 # Dependencies
 node_modules/
+package-lock.json
 
 # Build output
 dist/
@@ -22,6 +23,8 @@ lerna-debug.log*
 
 # Local config files
 *.local
+setting.json
+.env.local
 
 # Editor directories and files
 .vscode/*
