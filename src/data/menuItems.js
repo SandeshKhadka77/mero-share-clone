@@ -13,7 +13,7 @@ import {
 export const dashboardMenuItems = [
   { label: "Dashboard", icon: FiGrid, to: "/dashboard" },
   { label: "My Details", icon: FiCreditCard, to: "/details" },
-  { label: "My Shares", icon: FiBarChart2, to: "/dashboard/my-shares" },
+  { label: "My Shares", icon: FiBarChart2, to: "/shares" },
   { label: "My Transaction History", icon: FiRepeat, to: "/dashboard/transactions" },
   { label: "My Portfolio", icon: FiBriefcase, to: "/dashboard/portfolio" },
   { label: "My Pledge Share Detail", icon: FiUserCheck, to: "/dashboard/pledge-share-detail" },
